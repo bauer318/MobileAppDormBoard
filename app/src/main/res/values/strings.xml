@@ -6,4 +6,6 @@
     <string name="product_default_price">2780 руб</string>
     <string name="product_image_description">product image</string>
     <string name="product_fav_description">product_fav_icon</string>
+    <string name="button_write_msg">НАПИСАТЬ</string>
+    <string name="product_content">Стул для офиса\n2780 руб.\nЖак\nКомната 533\n10.03.2022</string>
 </resources>
