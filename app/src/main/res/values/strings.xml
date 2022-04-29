@@ -18,4 +18,8 @@
     <string name="edit_ads">Редактирование объявления</string>
     <string name="btn_cancel">Отмена</string>
     <string name="btn_edit">Изменить</string>
+    <string name="btn_delete_ads">Удалить</string>
+    <string name="delete_ads">Удаление объявления</string>
+    <string name="radio_button_ads_sold">Я продал продукту</string>
+    <string name="checkbox_no_sel">Я больше не хочу продать</string>
 </resources>
