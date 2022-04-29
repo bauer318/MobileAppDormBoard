@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/home_ads_adding_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_ads_adding_title"
+        style="@style/TitleTextStyle"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ads_adding_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <Button
+        android:id="@+id/button_add_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_ads"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>

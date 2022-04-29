@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import ru.bauer.dormboard.R
-import ru.bauer.dormboard.adapters.AdsAdapter
+import ru.bauer.dormboard.adapters.StatementAdapter
 import ru.bauer.dormboard.adapters.ProductAdapter
 
 class HomeFragment: Fragment() {
@@ -20,7 +20,7 @@ class HomeFragment: Fragment() {
         val verticalRecyclerView = view.findViewById<RecyclerView>(R.id.vertical_recyclerview_product)
         verticalRecyclerView.adapter=ProductAdapter(R.layout.home_product_item)
         val adsRecycleView = view.findViewById<RecyclerView>(R.id.ads_recyclerview)
-        adsRecycleView.adapter=AdsAdapter(R.layout.home_ads_item)
+        adsRecycleView.adapter=StatementAdapter(R.layout.home_statement_item)
         return view
     }
 }

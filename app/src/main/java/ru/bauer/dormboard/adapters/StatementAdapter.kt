@@ -3,12 +3,14 @@ package ru.bauer.dormboard.adapters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import ru.bauer.dormboard.R
 
-class AdsAdapter(private val layoutId:Int):RecyclerView.Adapter<AdsAdapter.ViewHolder>() {
+class StatementAdapter(private val layoutId:Int):RecyclerView.Adapter<StatementAdapter.ViewHolder>() {
 
     class ViewHolder(view: View):RecyclerView.ViewHolder(view){
-
+        val adsContent = view.findViewById<TextView>(R.id.statement_text)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -21,6 +23,6 @@ class AdsAdapter(private val layoutId:Int):RecyclerView.Adapter<AdsAdapter.ViewH
     }
 
     override fun getItemCount(): Int {
-        return 10
+        return 2
     }
 }

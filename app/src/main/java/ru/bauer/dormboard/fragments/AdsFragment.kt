@@ -1,24 +1,25 @@
 package ru.bauer.dormboard.fragments
 
 import android.os.Bundle
-import android.os.RecoverySystem
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import ru.bauer.dormboard.R
-import ru.bauer.dormboard.adapters.FavoriteAdapter
+import ru.bauer.dormboard.adapters.AdsAdapter
 
-class FavoriteFragment: Fragment() {
+class AdsFragment: Fragment() {
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_favorite,container,false)
-        val favoriteRecyclerView = view.findViewById<RecyclerView>(R.id.vertical_recyclerview_product)
-        favoriteRecyclerView.adapter = FavoriteAdapter(R.layout.ads_item)
+        val view = inflater.inflate(R.layout.home_adding_ads_fragment,container,false)
+        val adsRecycleView = view.findViewById<RecyclerView>(R.id.ads_adding_recyclerview)
+        adsRecycleView.adapter = AdsAdapter(R.layout.ads_item)
+
         return view
     }
 }

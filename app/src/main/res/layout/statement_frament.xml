@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
-        android:id="@+id/ads_layout"
+        android:id="@+id/statement_layout"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -14,7 +14,7 @@
         android:layout_margin="5dp"
         >
         <TextView
-            android:id="@+id/ads_date"
+            android:id="@+id/statement_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/default_ads_date"
@@ -23,11 +23,11 @@
             style="@style/SubtitleTextStyle"
             />
         <TextView
-            android:id="@+id/ads"
+            android:id="@+id/statement_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/default_ads"
-            android:layout_below="@id/ads_date"
+            android:layout_below="@id/statement_date"
             android:layout_centerInParent="true"
             style="@style/SubtitleTextStyle"
             />

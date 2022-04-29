@@ -8,4 +8,8 @@
     <string name="product_fav_description">product_fav_icon</string>
     <string name="button_write_msg">НАПИСАТЬ</string>
     <string name="product_content">Стул для офиса\n2780 руб.\nЖак\nКомната 533\n10.03.2022</string>
+    <string name="ads_content">Стул для офиса\n2780 руб.\n10.03.2022</string>
+    <string name="home_ads_adding_title">МОИ ОБЪЯВЛЕНИЯ</string>
+    <string name="missing_data">Пока нет объявлений</string>
+    <string name="btn_add_ads">Разместить объявление</string>
 </resources>
