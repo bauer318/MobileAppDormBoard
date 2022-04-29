@@ -12,4 +12,7 @@
     <string name="home_ads_adding_title">МОИ ОБЪЯВЛЕНИЯ</string>
     <string name="missing_data">Пока нет объявлений</string>
     <string name="btn_add_ads">Разместить объявление</string>
+    <string name="add_product_name_input">Название продукта</string>
+    <string name="add_product_price_input">Стоимость</string>
+    <string name="btn_publish_product">Опупликовать</string>
 </resources>

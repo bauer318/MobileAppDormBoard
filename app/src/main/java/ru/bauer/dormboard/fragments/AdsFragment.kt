@@ -16,7 +16,7 @@ class AdsFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.home_adding_ads_fragment,container,false)
+        val view = inflater.inflate(R.layout.fragment_home_adding_ads,container,false)
         val adsRecycleView = view.findViewById<RecyclerView>(R.id.ads_adding_recyclerview)
         adsRecycleView.adapter = AdsAdapter(R.layout.ads_item)
 
