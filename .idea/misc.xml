@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/activity_main.xml" value="0.2015625" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/drawable-v24/ic_profil_f.xml" value="0.1195" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/ads_frament.xml" value="0.1" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/home_ads_item.xml" value="0.20104166666666667" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/home_fragment.xml" value="0.20104166666666667" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/home_product_item.xml" value="0.20104166666666667" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/product_home_page_frament.xml" value="0.20104166666666667" />
       </map>
     </option>
   </component>

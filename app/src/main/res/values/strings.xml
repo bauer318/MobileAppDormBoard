@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">DormBoard</string>
+    <string name="app_name">Dorm Board</string>
+    <string name="default_ads">Тенисная комната не работает</string>
+    <string name="default_ads_date">27.04.2022 09:02</string>
+    <string name="product_default_name">Стул для офиса</string>
+    <string name="product_default_price">2780 руб</string>
+    <string name="product_image_description">product image</string>
+    <string name="product_fav_description">product_fav_icon</string>
 </resources>
