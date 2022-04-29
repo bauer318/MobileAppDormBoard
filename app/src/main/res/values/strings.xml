@@ -15,4 +15,7 @@
     <string name="add_product_name_input">Название продукта</string>
     <string name="add_product_price_input">Стоимость</string>
     <string name="btn_publish_product">Опупликовать</string>
+    <string name="edit_ads">Редактирование объявления</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_edit">Изменить</string>
 </resources>
