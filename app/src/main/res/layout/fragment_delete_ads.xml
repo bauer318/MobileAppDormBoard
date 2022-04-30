@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/black_chair"
-                />
+                android:importantForAccessibility="no"/>
         </androidx.cardview.widget.CardView>
         <View
             android:id="@+id/view_separation"

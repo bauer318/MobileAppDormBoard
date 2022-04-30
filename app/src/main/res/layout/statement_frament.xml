@@ -14,7 +14,7 @@
         android:layout_margin="5dp"
         >
         <TextView
-            android:id="@+id/statement_date"
+            android:id="@+id/text_statement_date_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/default_ads_date"
@@ -23,11 +23,11 @@
             style="@style/SubtitleTextStyle"
             />
         <TextView
-            android:id="@+id/statement_text"
+            android:id="@+id/text_statement_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/default_ads"
-            android:layout_below="@id/statement_date"
+            android:layout_below="@id/text_statement_date_time"
             android:layout_centerInParent="true"
             style="@style/SubtitleTextStyle"
             />

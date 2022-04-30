@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/black_chair"
+            android:importantForAccessibility="no"
             />
     </androidx.cardview.widget.CardView>
     <View
@@ -47,6 +48,7 @@
         app:layout_constraintBottom_toBottomOf="@id/view_separation"
         app:layout_constraintTop_toTopOf="@id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
+        android:importantForAccessibility="no"
         />
     <ImageView
         android:id="@+id/icon_delete"
@@ -57,6 +59,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view_separation"
         app:layout_constraintEnd_toEndOf="parent"
+        android:importantForAccessibility="no"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

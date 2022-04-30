@@ -6,11 +6,16 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import ru.bauer.dormboard.R
+import ru.bauer.dormboard.models.Statement
 
-class StatementAdapter(private val layoutId:Int):RecyclerView.Adapter<StatementAdapter.ViewHolder>() {
+class StatementAdapter(
+    private val layoutId:Int,
+    private val statementList:List<Statement>):RecyclerView.Adapter<StatementAdapter.ViewHolder>() {
 
     class ViewHolder(view: View):RecyclerView.ViewHolder(view){
-        val adsContent = view.findViewById<TextView>(R.id.statement_text)
+        val statementContent:TextView = view.findViewById(R.id.text_statement_content)
+        val statementDateTime:TextView = view.findViewById(R.id.text_statement_date_time)
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -19,10 +24,14 @@ class StatementAdapter(private val layoutId:Int):RecyclerView.Adapter<StatementA
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-
+        val currentStatement = statementList[position]
+        with(holder){
+            statementContent.text = currentStatement.content
+            statementDateTime.text = currentStatement.date+" "+currentStatement.time
+        }
     }
 
     override fun getItemCount(): Int {
-        return 2
+        return statementList.size
     }
 }

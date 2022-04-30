@@ -5,9 +5,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
-class AdsAdapter(private val layoutId:Int):RecyclerView.Adapter<AdsAdapter.ViewHolder>() {
+class AdsAddingAdapter(
+    private val layoutId:Int):RecyclerView.Adapter<AdsAddingAdapter.ViewHolder>() {
 
     class ViewHolder(view: View):RecyclerView.ViewHolder(view){
+
 
     }
 
@@ -21,6 +23,6 @@ class AdsAdapter(private val layoutId:Int):RecyclerView.Adapter<AdsAdapter.ViewH
     }
 
     override fun getItemCount(): Int {
-        return 10
+        return 10;
     }
 }

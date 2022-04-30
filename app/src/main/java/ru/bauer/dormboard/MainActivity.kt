@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val transaction = supportFragmentManager.beginTransaction()
-        //transaction.replace(R.id.home_frame_container,HomeFragment())
+        transaction.replace(R.id.home_frame_container,HomeFragment())
         //transaction.replace(R.id.home_frame_container,FavoriteFragment())
         //transaction.replace(R.id.home_frame_container,AdsFragment())
         //transaction.replace(R.id.home_frame_container,MessageFragment())
-        transaction.replace(R.id.home_frame_container,ChatFragment())
+        //transaction.replace(R.id.home_frame_container,ChatFragment())
         transaction.addToBackStack(null)
         transaction.commit()
     }

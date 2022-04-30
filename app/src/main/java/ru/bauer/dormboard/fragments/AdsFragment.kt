@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import ru.bauer.dormboard.R
-import ru.bauer.dormboard.adapters.AdsAdapter
+import ru.bauer.dormboard.adapters.AdsAddingAdapter
 
 class AdsFragment: Fragment() {
 
@@ -18,7 +18,7 @@ class AdsFragment: Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_home_adding_ads,container,false)
         val adsRecycleView = view.findViewById<RecyclerView>(R.id.ads_adding_recyclerview)
-        adsRecycleView.adapter = AdsAdapter(R.layout.ads_item)
+        adsRecycleView.adapter = AdsAddingAdapter(R.layout.ads_item)
 
         return view
     }

@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:src="@drawable/black_chair"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAccessibility="no" />
     <TextView
         android:id="@+id/product_content"
         android:layout_width="wrap_content"

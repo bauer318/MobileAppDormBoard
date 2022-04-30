@@ -16,13 +16,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/chair"
-            />
+            android:importantForAccessibility="no" />
         <ImageView
             android:id="@+id/star_icon"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_instar"
-            />
+            android:importantForAccessibility="no"/>
     </androidx.cardview.widget.CardView>
     <Button
         android:id="@+id/button_write_msg"
