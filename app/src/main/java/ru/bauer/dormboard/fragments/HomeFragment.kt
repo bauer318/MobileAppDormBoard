@@ -9,19 +9,26 @@ import androidx.recyclerview.widget.RecyclerView
 import ru.bauer.dormboard.R
 import ru.bauer.dormboard.adapters.StatementAdapter
 import ru.bauer.dormboard.adapters.AdsHomeAdapter
+import ru.bauer.dormboard.databinding.FragmentHomeBinding
 import ru.bauer.dormboard.models.Ads
 import ru.bauer.dormboard.models.Product
 import ru.bauer.dormboard.models.Statement
 import ru.bauer.dormboard.models.User
 
 class HomeFragment: Fragment() {
+    private var _binding:FragmentHomeBinding?=null
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_home,container,false)
+        return inflater.inflate(R.layout.fragment_home,container,false)
+    }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val binding = FragmentHomeBinding.bind(view)
+        _binding = binding
         //Ours models
         val userList= arrayListOf<User>()
         val productList = arrayListOf<Product>()
@@ -42,10 +49,15 @@ class HomeFragment: Fragment() {
         statementList.add(Statement(userList[0],"Завтра горячой воды не будет","30.04.2022","16:57"))
         statementList.add(Statement(userList[0],"Ключ спортзала находится в комнате старосты первого этажа. Если что, идите туда.",
             "30.04.2022","16:57"))
-        val verticalRecyclerView = view.findViewById<RecyclerView>(R.id.vertical_recyclerview_product)
+        val verticalRecyclerView = binding.verticalRecyclerviewProduct
         verticalRecyclerView.adapter=AdsHomeAdapter(R.layout.home_ads_item,adsList)
-        val adsRecycleView = view.findViewById<RecyclerView>(R.id.ads_recyclerview)
+        val adsRecycleView = binding.adsRecyclerview
         adsRecycleView.adapter=StatementAdapter(R.layout.home_statement_item,statementList)
-        return view
+
+    }
+
+    override fun onDestroyView() {
+        _binding = null
+        super.onDestroyView()
     }
 }

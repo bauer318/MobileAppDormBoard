@@ -1,5 +1,6 @@
 package ru.bauer.dormboard.adapters
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,8 +10,10 @@ import androidx.recyclerview.widget.RecyclerView
 import ru.bauer.dormboard.R
 import ru.bauer.dormboard.models.Ads
 
-class AdsHomeAdapter(private val layoutId:Int,
-                     private val adsList: List<Ads>):RecyclerView.Adapter<AdsHomeAdapter.ViewHolder>() {
+class AdsHomeAdapter(
+    private val layoutId:Int,
+    private val adsList: List<Ads>):RecyclerView.Adapter<AdsHomeAdapter.ViewHolder>() {
+
 
     class ViewHolder(view:View):RecyclerView.ViewHolder(view){
         val productImage:ImageView=view.findViewById(R.id.product_image)
