@@ -22,4 +22,11 @@
     <string name="delete_ads">Удаление объявления</string>
     <string name="radio_button_ads_sold">Я продал продукту</string>
     <string name="checkbox_no_sel">Я больше не хочу продать</string>
+    <string name="message_page_title">СООБЩЕНИЯ</string>
+    <string name="edit_message">сообщение</string>
+    <string name="button_chat_send">Отправить</string>
+    <string name="chat_date">30 апреля</string>
+    <string name="message_from_user">Здравствуйте\nя хотел купить...</string>
+    <string name="message_to_user">Мне это интересно</string>
+    <string name="user_name">Жак</string>
 </resources>

@@ -8,19 +8,24 @@
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/ads_adding_fragment.xml" value="0.12409420289855072" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/ads_frament.xml" value="0.1" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/ads_item.xml" value="0.10914855072463768" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/chat_from_user_item.xml" value="0.16545532278751604" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/chat_to_user_item.xml" value="0.16545532278751604" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/favoris_product_item.xml" value="0.20104166666666667" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/favorite_product_item.xml" value="0.10914855072463768" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_adding_ads.xml" value="0.1" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_buy_product.xml" value="0.25" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_chat.xml" value="0.16545532278751604" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_delete_ads.xml" value="0.15" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_edit_ads.xml" value="0.2" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_favoris.xml" value="0.15" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_home_adding_ads.xml" value="0.14369900271985495" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/fragment_message.xml" value="0.12194016319129647" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/home_adding_ads_fragment.xml" value="0.1" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/home_ads_item.xml" value="0.20104166666666667" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/home_fragment.xml" value="0.20104166666666667" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/home_product_item.xml" value="0.20104166666666667" />
+        <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/message_item.xml" value="0.157298277425204" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/missing_data_item.xml" value="0.12409420289855072" />
         <entry key="..\:/Android_App/DormBoard/app/src/main/res/layout/product_home_page_frament.xml" value="0.20104166666666667" />
       </map>
