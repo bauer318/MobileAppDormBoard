@@ -29,4 +29,11 @@
     <string name="message_from_user">Здравствуйте\nя хотел купить...</string>
     <string name="message_to_user">Мне это интересно</string>
     <string name="user_name">Жак</string>
+    <string name="profile_title">Мой профиль</string>
+    <string name="user_profile">Жак Кибамба\nКомната 533</string>
+    <string name="add_statement">Добавить заявление</string>
+    <string name="all_statements">Мои заявления</string>
+    <string name="logout">ВЫЙТИ</string>
+    <string name="added_statement">Текст добавленного заявления</string>
+    <string name="button_add">Добавить</string>
 </resources>
