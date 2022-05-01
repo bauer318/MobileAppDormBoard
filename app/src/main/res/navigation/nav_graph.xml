@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ru.bauer.dormboard.fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_fragmentBuyProduct"
+            app:destination="@id/fragmentBuyProduct" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBuyProduct"
+        android:name="ru.bauer.dormboard.fragments.BuyProductFragment"
+        android:label="FragmentBuyProduct" >
+        <argument
+            android:name="selectedAds"
+            app:argType="ru.bauer.dormboard.models.Ads" />
+    </fragment>
+</navigation>

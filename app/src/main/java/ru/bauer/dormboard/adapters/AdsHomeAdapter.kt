@@ -6,8 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.navigation.NavDirections
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import ru.bauer.dormboard.R
+import ru.bauer.dormboard.fragments.HomeFragmentDirections
 import ru.bauer.dormboard.models.Ads
 
 class AdsHomeAdapter(
@@ -31,6 +34,10 @@ class AdsHomeAdapter(
         holder.productImage.setImageResource(currentAds.product.imageResourceId)
         holder.productName.text = currentAds.product.name
         holder.productPrice.text = currentAds.product.price.toString()+" руб."
+        holder.productImage.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToFragmentBuyProduct(currentAds)
+            holder.productImage.findNavController().navigate(action)
+        }
     }
 
     override fun getItemCount(): Int {
