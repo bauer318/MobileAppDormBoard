@@ -36,6 +36,7 @@ class AdsHomeAdapter(
         holder.productPrice.text = currentAds.product.price.toString()+" руб."
         holder.productImage.setOnClickListener {
             val action = HomeFragmentDirections.actionHomeFragmentToFragmentBuyProduct(currentAds)
+
             holder.productImage.findNavController().navigate(action)
         }
     }
