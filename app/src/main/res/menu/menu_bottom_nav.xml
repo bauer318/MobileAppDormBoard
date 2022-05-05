@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:id="@+id/favoriteFragment"
+        android:title="Favorites"
+        android:icon="@drawable/ic_favorite"
+        />
+    <item
+        android:id="@+id/add_ads"
+        android:title="Add ads"
+        android:icon="@drawable/ic_add"
+        />
+    <item
+        android:id="@+id/chat"
+        android:title="Messages"
+        android:icon="@drawable/ic_message"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_user_profile"
+        />
+
+</menu>

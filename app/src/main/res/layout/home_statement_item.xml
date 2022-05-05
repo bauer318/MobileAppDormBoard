@@ -5,6 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="2dp"
     >
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -18,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-            android:background="@color/ads_background">
+            android:background="#E2E6EA">
                 <TextView
                     android:id="@+id/text_statement_date_time"
                     android:layout_width="match_parent"

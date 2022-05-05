@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     tools:context=".fragments.HomeFragment"
+
     >
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ads_recyclerview"
@@ -18,7 +19,6 @@
         android:id="@+id/vertical_recyclerview_product"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"
         android:orientation="vertical"

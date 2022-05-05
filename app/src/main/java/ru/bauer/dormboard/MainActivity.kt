@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import ru.bauer.dormboard.fragments.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment=supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
         setupActionBarWithNavController(navController)
+        findViewById<BottomNavigationView>(R.id.bottom_nav).setupWithNavController(navController)
         /*val transaction = supportFragmentManager.beginTransaction()
         //transaction.replace(R.id.home_frame_container,HomeFragment())
         //transaction.replace(R.id.home_frame_container,FavoriteFragment())

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/homeFragment"
         android:name="ru.bauer.dormboard.fragments.HomeFragment"
-        android:label="HomeFragment" >
+        android:label="Dorm Board">
         <action
             android:id="@+id/action_homeFragment_to_fragmentBuyProduct"
             app:destination="@id/fragmentBuyProduct" />
@@ -15,9 +16,14 @@
     <fragment
         android:id="@+id/fragmentBuyProduct"
         android:name="ru.bauer.dormboard.fragments.BuyProductFragment"
-        android:label="FragmentBuyProduct" >
+        android:label="Купить продукт">
         <argument
             android:name="selectedAds"
             app:argType="ru.bauer.dormboard.models.Ads" />
     </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="ru.bauer.dormboard.fragments.FavoriteFragment"
+        android:label="Избранные"
+        tools:layout="@layout/fragment_favorite" />
 </navigation>
